@@ -13,7 +13,7 @@ public class Product {
     public void sell(int amount){
         if(amount <= quantity){
             quantity -= amount;
-            System.out.println("Sold" + amount + "item");
+            System.out.println(" Sold " + amount + " item ");
         }
         else System.out.println("Not enough item in stock...");
     }
