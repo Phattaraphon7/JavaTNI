@@ -13,7 +13,7 @@ public class ProductMain {
         int choice = JOptionPane.showConfirmDialog(null,
                 "Do you want to add more item?","Select an option",JOptionPane.YES_NO_CANCEL_OPTION);
         if(choice == JOptionPane.YES_OPTION){
-           p1.addStock(Integer.parseInt(JOptionPane.showInputDialog("How many item to add in stock? ")));
+           p1.addStock(Integer.parseInt(JOptionPane.showInputDialog(" How many item to add in stock? ")));
 
         }
 
