@@ -42,7 +42,7 @@ public class CakeOrder {
 
         System.out.println(order3);
 
-        System.out.println("TOtal price = " + (order1.calculateTotalPrice() + order2.calculateTotalPrice() + order3.calculateTotalPrice()));
+        System.out.println("Total price = " + (order1.calculateTotalPrice() + order2.calculateTotalPrice() + order3.calculateTotalPrice()));
 
     }
 }
