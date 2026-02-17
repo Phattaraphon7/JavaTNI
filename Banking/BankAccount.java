@@ -3,7 +3,7 @@ package Banking;
 public class BankAccount {
     protected String accId;
     protected double accBalance;
-    protected final String filename = "src/users_account.txt";
+    protected final String filename = "users_account.txt";
 
     public BankAccount(String accId, double accBalance) {
         this.accId = accId;
